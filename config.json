@@ -1,0 +1,15 @@
+{
+  "sql": {
+    "host": "localhost",
+    "user": "root",
+    "password": "",
+    "database": "ripper"
+  },
+	
+	"Bot": {
+		"Token": "MTAyNTk5OTkyMDAxODIzOTU3OQ.GVyoWz.kfgxG3Z_UoydYGPbYnercFPCxsXXDS4ZSS0i0Y",
+    "AdminRole": "1000681012084355142",
+    "ResetHwid" : "1000681012084355142",
+    "NameHub": "Ripper Hub"
+	}
+}

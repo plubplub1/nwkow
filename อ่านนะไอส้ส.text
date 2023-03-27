@@ -1,0 +1,17 @@
+password ถ้าไม่มีก็ไม่ต้องใส่
+admin role สามารถทำได้ทุกอย่าง
+resethwid role ก้ได้เเค่ re hwid
+database ก็เป็นชื้อ ที่ตั่ง วิธี สร้าง ก็ให้สร้าง เเล้ว กดตรง SQL
+
+
+Create Data base
+
+CREATE TABLE whitelist ( 
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, 
+userkey VARCHAR(255) NOT NULL UNIQUE, 
+discord_id VARCHAR(255) NOT NULL,
+hwid VARCHAR(255) NOT NULL,
+ip VARCHAR(255) NOT NULL,
+Blacklisted VARCHAR(255) NOT NULL,
+Reason VARCHAR(255) NOT NULL, created_at DATETIME DEFAULT CURRENT_TIMESTAMP 
+)
